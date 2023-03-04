@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+p {
+    font-size: 18px;
+    color: rgb(238, 253, 170);
+}
+
+::placeholder {
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+input {
+    padding: 5px;
+    border-color: aliceblue;
+    background-color: rgb(192, 155, 54);
+    width: 85%;
+}
+
+button {
+    text-transform: uppercase;
+    border-color: aliceblue;
+    background-color: rgb(82, 194, 155);
+    width: 85%;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 8px;
+}
+
+header {
+    color: rgb(26, 177, 126);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    margin-top: -40%;
+    margin-bottom: 20%;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.error {
+    font-size: 17px;
+    margin-top: 20px;
+    color: red;
+}
+
+.user-date {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.flex-dr {
+    display: flex;
+}
+.game img {
+    width: 55px;
+    margin: 5px;
+} 
+
+
+.hidden {
+    display: none;
+}
+
+.social-icon {
+    display: none;
+}
+.circle {
+    display: block;
+}
+
+.active > .social-icon {
+    display: block;
+}
+
+.active > .circles {
+    display: none;
+}
+
